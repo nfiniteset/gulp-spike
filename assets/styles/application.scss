@@ -1,0 +1,14 @@
+@import "bourbon";
+@import "neat";
+
+body {
+  @include linear-gradient(to top, red, orange);
+  @include outer-container;
+}
+
+body {
+  h1 {
+    @include span-columns(3);
+    color: white;
+  }
+}
